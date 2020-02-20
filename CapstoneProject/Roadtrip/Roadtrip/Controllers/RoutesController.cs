@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Roadtrip.Controllers
 {
-    public class RoutesController : Controller
+    public class  RoutesController : Controller
     {
         // GET: Routes
         public ActionResult Index()
@@ -18,5 +18,9 @@ namespace Roadtrip.Controllers
         {
             return View();
         }
+
+        
+
+
     }
 }
